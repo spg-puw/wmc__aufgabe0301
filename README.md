@@ -25,7 +25,7 @@ Schreiben Sie eine API, die die Daten aus `Schulen.json` verarbeitet und folgend
 
 Bearbeite die Datei *public/index.html* und ergänze folgende Funktion:
 
-* Ergänze das Dropdown (Element mit id `endpoint`) um die fehlenden Endpoints
+* Ergänze das Dropdown (Element mit id `endpoint`) um die fehlenden Endpoints; benutze die vorhandene Vorlage
 * Reagiere auf Änderungen des Dropdowns (Element mit id `endpoint`); rufe die Daten vom entsprechenden Endpoint auf und zeige diese an
   * Die alten Daten von vorigen Aufrufen werden immer gelöscht
   * Sollte es einen Fehler geben, so wird einfach die Nachricht "(Daten konnten nicht geladen werden)" statt der Daten in das Element mit der id `mycontent` geschrieben
