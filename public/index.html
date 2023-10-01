@@ -23,7 +23,16 @@
         .then(res => res.json())
         .then(res => {
           for (const r of res) {
-            document.getElementById("mycontent").innerHTML += `${r.schulname} (${r.plz} ${r.ort})<br>`;
+            if (typeof r === 'object') {
+              let s = '';
+              for (const k in r) {
+                s += String(r[k]) + " ";
+              }
+              document.getElementById("mycontent").innerHTML += `${s}<br>`;
+            }
+            else {
+              document.getElementById("mycontent").innerHTML += `${r}<br>`;
+            }
           }
         })
         .catch(e => {
