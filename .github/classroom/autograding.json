@@ -1,0 +1,154 @@
+{
+  "tests": [
+    {
+      "name": "API T05",
+      "setup": "npm install",
+      "run": "npm test -- -t 'T05'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "API T06",
+      "setup": "npm install",
+      "run": "npm test -- -t 'T06'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "API T07",
+      "setup": "npm install",
+      "run": "npm test -- -t 'T07'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "API T08",
+      "setup": "npm install",
+      "run": "npm test -- -t 'T08'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "API T09",
+      "setup": "npm install",
+      "run": "npm test -- -t 'T09'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "API T10",
+      "setup": "npm install",
+      "run": "npm test -- -t 'T10'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "API T11",
+      "setup": "npm install",
+      "run": "npm test -- -t 'T11'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "API T12",
+      "setup": "npm install",
+      "run": "npm test -- -t 'T12'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "API T13",
+      "setup": "npm install",
+      "run": "npm test -- -t 'T13'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "API T14",
+      "setup": "npm install",
+      "run": "npm test -- -t 'T14'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "API T15",
+      "setup": "npm install",
+      "run": "npm test -- -t 'T15'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Frontend T01",
+      "setup": "npm install",
+      "run": "npm exec start-server-and-test start http://localhost:3000 'npm run cypress:run -- --env grep=T01'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Frontend T02",
+      "setup": "npm install",
+      "run": "npm exec start-server-and-test start http://localhost:3000 'npm run cypress:run -- --env grep=T02'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Frontend T03",
+      "setup": "npm install",
+      "run": "npm exec start-server-and-test start http://localhost:3000 'npm run cypress:run -- --env grep=T03'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Frontend T04",
+      "setup": "npm install",
+      "run": "npm exec start-server-and-test start http://localhost:3000 'npm run cypress:run -- --env grep=T04'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
