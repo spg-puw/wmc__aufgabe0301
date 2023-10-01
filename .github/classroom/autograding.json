@@ -3,7 +3,7 @@
     {
       "name": "API T05",
       "setup": "npm install",
-      "run": "npm test -- -t 'T05'",
+      "run": "npm run test:api -- -t 'T05'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "API T06",
       "setup": "npm install",
-      "run": "npm test -- -t 'T06'",
+      "run": "npm run test:api -- -t 'T06'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "API T07",
       "setup": "npm install",
-      "run": "npm test -- -t 'T07'",
+      "run": "npm run test:api -- -t 'T07'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "API T08",
       "setup": "npm install",
-      "run": "npm test -- -t 'T08'",
+      "run": "npm run test:api -- -t 'T08'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "API T09",
       "setup": "npm install",
-      "run": "npm test -- -t 'T09'",
+      "run": "npm run test:api -- -t 'T09'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -53,7 +53,7 @@
     {
       "name": "API T10",
       "setup": "npm install",
-      "run": "npm test -- -t 'T10'",
+      "run": "npm run test:api -- -t 'T10'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -63,7 +63,7 @@
     {
       "name": "API T11",
       "setup": "npm install",
-      "run": "npm test -- -t 'T11'",
+      "run": "npm run test:api -- -t 'T11'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -73,7 +73,7 @@
     {
       "name": "API T12",
       "setup": "npm install",
-      "run": "npm test -- -t 'T12'",
+      "run": "npm run test:api -- -t 'T12'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -83,7 +83,7 @@
     {
       "name": "API T13",
       "setup": "npm install",
-      "run": "npm test -- -t 'T13'",
+      "run": "npm run test:api -- -t 'T13'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -93,7 +93,7 @@
     {
       "name": "API T14",
       "setup": "npm install",
-      "run": "npm test -- -t 'T14'",
+      "run": "npm run test:api -- -t 'T14'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -103,7 +103,7 @@
     {
       "name": "API T15",
       "setup": "npm install",
-      "run": "npm test -- -t 'T15'",
+      "run": "npm run test:api -- -t 'T15'",
       "input": "",
       "output": "",
       "comparison": "included",
