@@ -47,3 +47,17 @@ npm run start
 # mit nodemon starten
 npm run dev
 ```
+
+Zum Testen werden *jest* und *supertest* (API) sowie *cypress* (e2e) verwendet.
+
+```sh
+# für API-Test
+npm run test:api
+
+# für Frontend-Test (e2e mit cypress)
+npm run test:e2e
+npm run cypress:open # cypress öffnen (API muss gestartet sein)
+
+# alle Tests durchlaufen
+npm run test
+```
