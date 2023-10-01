@@ -1,11 +1,13 @@
-const express = require('express');
-const app = express();
+import express from 'express';
+export const app = express();
 const port = 3000;
 
-//middleware: serve static files from folder public
-app.use("/", express.static("public"));
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
+export const s = require('./Schulen.json');
 
-const s = require('./Schulen.json');
+// middleware: serve static files from folder public
+app.use("/", express.static("public"));
 
 app.get('/a1', (req, res) => {
     // alle Schulen (Name, Adr, PLZ Ort) mit PLZ > 4000
@@ -34,7 +36,10 @@ app.get('/a3', (req, res) => {
 
 //TODO: weitere Aufgaben
 
-app.listen(port, () => {
-    console.log(`Webserver gestartet: http://localhost:${port}`);
-    console.log(`Zum Beenden: Ctrl+C`);
-})
+export default { app }
+if (import.meta.url.endsWith(process.argv[1])) {
+    app.listen(port, () => {
+        console.log(`Webserver gestartet: http://localhost:${port}`);
+        console.log(`Zum Beenden: Ctrl+C`);
+    })
+}
