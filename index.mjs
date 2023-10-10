@@ -37,7 +37,8 @@ app.get('/a3', (req, res) => {
 //TODO: weitere Aufgaben
 
 export default { app }
-if (import.meta.url.endsWith(process.argv[1])) {
+import { pathToFileURL as _path } from 'url'
+if (import.meta.url === _path(process.argv[1]).href) {
     app.listen(port, () => {
         console.log(`Webserver gestartet: http://localhost:${port}`);
         console.log(`Zum Beenden: Ctrl+C`);
