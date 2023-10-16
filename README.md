@@ -1,5 +1,7 @@
 # Aufgabe SchulAPI
 
+Aufgabe by [PUW](https://github.com/spg-puw/).
+
 ## Aufgabe
 
 ### API
