@@ -22,7 +22,7 @@ describe('frontend tests', () => {
   it('T02 should be able to switch the select and load new content', () => {
     cy.get('#mycontent').invoke('text').then(b => {
       const before = String(b).trim()
-      cy.get('#endpoint').select(2)
+      cy.get('#endpoint').select(2) // fixed by m100re / Maximilian Schnabl
       cy.wait('@getApi').its('response.statusCode').should('be.oneOf', [200, 304])
       cy.wait(1000)
       cy.get('#mycontent').invoke('text').should((a) => {
